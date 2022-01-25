@@ -20,5 +20,4 @@ class Api::V1::NetflixesController < ApplicationController
       @netflix_titles = NetflixTitle.all.order(:year)
     end
   end
-
 end
