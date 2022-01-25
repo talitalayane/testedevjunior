@@ -11,12 +11,12 @@ string = "<<.<<..>><>><.>.>.<<.>.<.>>>><>><>>"
 diamonds = 0
 
 # remove areias
-sand = string.gsub(".", "")
+extraction = string.gsub(".", "")
 
 #remove diamantes
 
-while sand.include? "<>"
-  extraction = sand.sub("<>","")
+while extraction.include? "<>"
+  extraction = extraction.sub("<>","")
   diamonds =+ 1
 end
 
